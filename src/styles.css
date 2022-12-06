@@ -1,0 +1,27 @@
+.head {
+  height: 50px;
+  width: 50px;
+  background-color: blueviolet;
+  position: absolute;
+}
+
+.bodyParts {
+  height: 50px;
+  width: 50px;
+  background-color: blueviolet;
+  position: absolute;
+}
+
+.board {
+  height: 700px;
+  width: 700px;
+  border: 2px pink dotted;
+  position: relative;
+}
+
+.apple {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  background-color: olive;
+}
