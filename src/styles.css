@@ -1,27 +1,36 @@
-.head {
+#head {
   height: 50px;
   width: 50px;
-  background-color: blueviolet;
   position: absolute;
 }
 
-.bodyParts {
+#bodyPart {
   height: 50px;
   width: 50px;
-  background-color: blueviolet;
   position: absolute;
 }
 
-.board {
+#board {
   height: 700px;
   width: 700px;
-  border: 2px pink dotted;
+  background-color: #0F7303;
+  border: 2px black solid;
   position: relative;
+  margin: auto;
 }
 
-.apple {
+#apple {
   height: 50px;
   width: 50px;
   position: absolute;
-  background-color: olive;
+}
+
+#start {
+  margin: auto;
+  position: relative;
+  padding: 5px;
+  margin-top: 10px;
+  left: 50%;
+  border-radius: 5px;
+  cursor: pointer;
 }
